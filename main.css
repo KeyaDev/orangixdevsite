@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #232323;
+}
+
+.card {
+    background-color: #FF781F;
+    font-family: monospace;
+    height: 260px;
+    width: 360px;
+    border-radius: 20px;
+}
+
+.content {
+    padding: 0 15px 0 25px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    max-width: 150px;
+    border: 7px solid #232323;
+    border-radius: 5px;
+    margin-top: -50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.social-github {
+    color: rgb(0, 0, 0);
+}
+
+
+
+.social-discord {
+    color: rgb(0, 4, 255)
+}
+
+.social-money {
+    color: #00ff62
+}
+
+.name {
+    font-size: 27px;
+    line-height: 0;
+    padding-top: 20px;
+}
